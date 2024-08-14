@@ -12,8 +12,10 @@ time.sleep(3)
 pa.click(x=968, y=516)
 pyperclip.copy("LUCAS.OLIMPIO")
 pa.hotkey('ctrl','v')
+
 pa.click(x=987, y=565)
-pyperclip.copy("LUCAS.2024")
+pyperclip.copy("Lucas.2024")
 pa.hotkey('ctrl', 'v')
 pa.click(x=1177, y=640)
 pa.press('ENTER')
+
