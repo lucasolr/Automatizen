@@ -13,6 +13,7 @@ pa.click(x=968, y=516)
 pyperclip.copy("LUCAS.OLIMPIO")
 pa.hotkey('ctrl','v')
 
+
 pa.click(x=987, y=565)
 pyperclip.copy("Lucas.2024")
 pa.hotkey('ctrl', 'v')
