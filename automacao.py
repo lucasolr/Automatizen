@@ -27,4 +27,11 @@ pa.click(x=256, y=135, duration=2)
 pa.moveTo(x=253, y=314)
 pa.moveTo(x=370, y=688)
 pa.press('ENTER')
-pa.click(x=1068, y=357)
+
+pa.screenshot("screenshot.png")
+
+localizacao = pa.locateCenterOnScreen('https://vitoria.dealernetworkflow.com.br/Resources/WhitePageNext.png')
+
+if localizacao:
+    pa.moveTo(localizacao)
+    pa.lick()
